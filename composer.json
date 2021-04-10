@@ -1,0 +1,29 @@
+{
+    "name": "gaerkhanovalexey/lab10",
+    "description": "leha",
+    "type": "library",
+    "license": "-",
+    "authors": [
+        {
+            "name": "gaerkhanov",
+            "email": "gaerkhanov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"autoload":{
+		"psr-4":{
+			"leha\\": "leha"
+		}
+	},
+    "require": {
+		"rok9ru/trpo-core": "2.0"
+	},
+	"repositories": [
+		{	
+			"type": "git",
+			"url": "https://github.com/rok9ru/trpo-core"
+		}
+	]
+
+}
+
